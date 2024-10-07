@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubmarineHelper", "SubmarineHelper\SubmarineHelper.csproj", "{13C812E9-0D42-4B95-8646-40EEBF30636F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClickLib", "ClickLib\ClickLib\ClickLib.csproj", "{07A9CDF7-4759-4CA4-A57E-11EBA0921C28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommons", "ECommons\ECommons\ECommons.csproj", "{7880B060-3589-4675-81AF-449C634CF119}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13C812E9-0D42-4B95-8646-40EEBF30636F}.Debug|x64.ActiveCfg = Debug|x64
+		{13C812E9-0D42-4B95-8646-40EEBF30636F}.Debug|x64.Build.0 = Debug|x64
+		{13C812E9-0D42-4B95-8646-40EEBF30636F}.Release|x64.ActiveCfg = Release|x64
+		{13C812E9-0D42-4B95-8646-40EEBF30636F}.Release|x64.Build.0 = Release|x64
+		{07A9CDF7-4759-4CA4-A57E-11EBA0921C28}.Debug|x64.ActiveCfg = Debug|x64
+		{07A9CDF7-4759-4CA4-A57E-11EBA0921C28}.Debug|x64.Build.0 = Debug|x64
+		{07A9CDF7-4759-4CA4-A57E-11EBA0921C28}.Release|x64.ActiveCfg = Release|x64
+		{07A9CDF7-4759-4CA4-A57E-11EBA0921C28}.Release|x64.Build.0 = Release|x64
+		{7880B060-3589-4675-81AF-449C634CF119}.Debug|x64.ActiveCfg = Debug|x64
+		{7880B060-3589-4675-81AF-449C634CF119}.Debug|x64.Build.0 = Debug|x64
+		{7880B060-3589-4675-81AF-449C634CF119}.Release|x64.ActiveCfg = Release|x64
+		{7880B060-3589-4675-81AF-449C634CF119}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B17E85B1-5F60-4440-9F9A-3DDE877E8CDF}
+	EndGlobalSection
+EndGlobal

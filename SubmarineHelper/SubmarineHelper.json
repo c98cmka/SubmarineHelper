@@ -1,0 +1,10 @@
+{
+    "Author": "0x",
+    "Name": "SubmarineHelper",
+    "Punchline": "自动收艇",
+    "Description": "",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 10,
+    "IconUrl": "https://raw.githubusercontent.com/c98cmka/SubmarineHelper/master/icon.png",
+    "RepoUrl": "https://github.com/c98cmka/SubmarineHelper"
+}
