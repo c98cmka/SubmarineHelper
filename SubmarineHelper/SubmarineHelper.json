@@ -2,7 +2,7 @@
     "Author": "0x",
     "Name": "SubmarineHelper",
     "Punchline": "自动收艇",
-    "Description": "",
+    "Description": "点击 管理潜水艇 后显示UI。",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
     "IconUrl": "https://raw.githubusercontent.com/c98cmka/SubmarineHelper/master/icon.png",

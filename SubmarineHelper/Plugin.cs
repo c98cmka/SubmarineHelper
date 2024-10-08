@@ -46,7 +46,7 @@ namespace SubmarineHelper
         private static bool IsOpen = false;
         private static bool hasStart = false;
         private static bool hasCollected = false;
-        private static bool needConfirm = false;
+        //private static bool needConfirm = false;
         private static bool hasRepaired = false;
         private static int? RequisiteMaterials;
 
@@ -109,10 +109,10 @@ namespace SubmarineHelper
             }
             if (isRunning && SelectYesno != null && IsAddonAndNodesReady(SelectYesno))
             {
-                if (needConfirm) {
+                //if (needConfirm) {
                     Click.SendClick("select_yes", (nint)SelectYesno);
-                    needConfirm = false;
-                }
+                //    needConfirm = false;
+                //}
             }
             if (isRunning && CompanyCraftSupply != null && IsAddonAndNodesReady(CompanyCraftSupply)) {
                 if (!hasRepaired)
@@ -242,7 +242,7 @@ namespace SubmarineHelper
         private static bool? RepairSubmarines()
         {
             if (CompanyCraftSupply == null || !IsAddonAndNodesReady(CompanyCraftSupply)) return false;
-            if (needConfirm) return false;
+            //if (needConfirm) return false;
 
             for (var i = 0; i < 4; i++)
             {
@@ -250,7 +250,7 @@ namespace SubmarineHelper
                 if (endurance <= 0)
                 {
                     AgentHelper.SendEvent(AgentId.SubmersibleParts, 0, 3, 0, i, 0, 0, 0);
-                    needConfirm = true;
+                    //needConfirm = true;
                     return false;
                 }
             }

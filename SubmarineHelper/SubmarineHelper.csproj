@@ -5,8 +5,8 @@
     <Company></Company>
     <InternalName>SubmarineHelper</InternalName>
 	<RepositoryUrl>https://github.com/c98cmka/SubmarineHelper</RepositoryUrl>
-    <Version>7.0.1.0</Version>
-    <Description>A Dalamud PvP Helper For FFXIV.</Description>
+    <Version>7.0.1.1</Version>
+    <Description>A Dalamud Submarine Helper For FFXIV.</Description>
     <Copyright></Copyright>
     <PackageProjectUrl></PackageProjectUrl>
   </PropertyGroup>
